@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
                     map += Student.id to
                             (Student.name + " "+ Student.sername +  " "+  Student.grade + " "+  Student.birthdayYear)
                     edTxt.setText("")
+                    txtView.text = "Данные записаны"
                 }
                 else{txtView.text = "Вы ввели недостаточно данных"}
                 return@setOnKeyListener true
