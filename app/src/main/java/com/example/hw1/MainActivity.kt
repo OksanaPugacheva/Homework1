@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                     edTxt.setText("")
                     txtView.text = "Данные записаны"
                 }
-                else{txtView.text = "Вы ввели недостаточно данных"}
+                else{txtView.text = "Недостаточно данных"}
                 return@setOnKeyListener true
             }
             return@setOnKeyListener false }
